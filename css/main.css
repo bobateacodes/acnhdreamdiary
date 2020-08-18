@@ -90,7 +90,7 @@ h1 {
 }
 
 #p-app {
-  margin-top: 5em;
+  margin-top: 3em;
   margin-bottom: .5em;
   width: 100px;
   height: 100px;
@@ -98,8 +98,8 @@ h1 {
   border-radius: 33px;
 }
 
-.app-margin {
-  margin-top: -4em;
+#p-app-title {
+  color: #532B0E;
 }
 
 .mt-10 {
@@ -254,6 +254,7 @@ header.mainheader .mainheader-content .mainheader-subheading {
     font-size: 2.3em;
   }
   .p-desc {
+    font-size:20px;
     margin-top:7.5em;
     padding:2em;
     left:0;
@@ -265,6 +266,18 @@ header.mainheader .mainheader-content .mainheader-subheading {
     width:auto;
     left:0;
   }
+
+  #p-app {
+    width:160px;
+    height:160px;
+    border-radius:55px;
+  }
+
+
+  #p-app-title {
+    font-size: 20px !important;
+  }
+
 
   /* dream address */
 
@@ -284,6 +297,15 @@ header.mainheader .mainheader-content .mainheader-subheading {
     line-height: 2em;
   }
 
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 .btn-primary {

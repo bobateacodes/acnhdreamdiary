@@ -1,3 +1,13 @@
+// random dream addresses
+function randomAddress() {
+  var min = 1000
+  var max = 9999
+  var output = document.getElementById("da-value");
+  var string = "DA-";
+  var address = Math.floor(Math.random() * (max-min+1)) + min;
+  output.innerHTML = string + address + "-0000-0000"  //testing
+  return output;
+}
 
 // more info, less info button
 function toggle() {
