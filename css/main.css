@@ -90,7 +90,7 @@ header.mainheader .mainheader-content .mainheader-subheading {
 /* Nook Phone */
 .p-screen {
   position: relative;
-  top:-15em;
+  top:-20vh;
   width:90%;
   margin:auto;
   padding:4em;
@@ -245,7 +245,7 @@ header.mainheader .mainheader-content .mainheader-subheading {
   }
 
   .p-screen {
-    top:-20em;
+    top:;
   }
 
   .p-title {
@@ -306,6 +306,7 @@ header.mainheader .mainheader-content .mainheader-subheading {
   .p-screen {
     width: 50em;
     border-radius: 150px;
+    top:-10vh;
   }
   .p-title {
     font-size: 2.3em;
@@ -354,6 +355,10 @@ header.mainheader .mainheader-content .mainheader-subheading {
     line-height: 2em;
   }
 
+  .scaled {
+    transform:scale(.85);
+  }
+
 }
 
 .noselect {
@@ -366,7 +371,7 @@ header.mainheader .mainheader-content .mainheader-subheading {
 }
 
 .scaled {
-  transform:scale(.90);
+  transform:scale(1);
 }
 
 .btn-primary {
