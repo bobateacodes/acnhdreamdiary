@@ -5,6 +5,10 @@ body {
   scroll-behavior: smooth;
 }
 
+p {
+  font-family: Yaldevi Colombo Medium;
+}
+
 h1,
 h2,
 h3,
@@ -255,7 +259,7 @@ header.mainheader .mainheader-content .mainheader-subheading {
   }
 
   .p-screen {
-    height:52em
+    height:53em
   }
 
   .p-title {
