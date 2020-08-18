@@ -67,6 +67,7 @@ h1 {
 }
 
 #p-desc-b {
+  cursor: pointer;
   float:right;
   width: 120px;
   height: 2em;
@@ -127,6 +128,7 @@ h1 {
   }
 
   #da-button {
+    cursor: pointer;
     position:relative;
     top:3em;
     width: 10em;

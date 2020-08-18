@@ -23,7 +23,10 @@
   <link href="css/main.css" rel="stylesheet">
 
   <!-- JavaScript -->
-  <script type="text/javascript" src="js/script.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="javascript/script.js"></script>
+
 
 </head>
 
@@ -79,7 +82,7 @@
               <div class="p-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae!
                 Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
-                <div id="p-desc-b" onclick="addInfo()">more info</div>
+                <div id="p-desc-b" onclick="addInfo(), toggle();">more info</div>
               </div>
               <div id="desc-info">
                 <div id="towntags">tagged as:</div>
@@ -127,10 +130,6 @@
     </div>
     <!-- /.container -->
   </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
