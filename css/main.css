@@ -49,7 +49,6 @@ h1 {
 }
 
 #desc-info {
-  display: none;
   position:relative;
   padding:2em;
   top:-1.2em;
@@ -261,6 +260,12 @@ header.mainheader .mainheader-content .mainheader-subheading {
     width:auto;
     height: auto;
   }
+
+  #desc-info {
+    width:auto;
+    left:0;
+  }
+
   /* dream address */
 
   #da-value {
@@ -279,10 +284,6 @@ header.mainheader .mainheader-content .mainheader-subheading {
     line-height: 2em;
   }
 
-}
-
-.bg-primary {
-  background-color: #ee0979 !important;
 }
 
 .btn-primary {
