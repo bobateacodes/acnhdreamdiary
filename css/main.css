@@ -88,8 +88,8 @@ h6 {
 
 .mt-10 {
   background-color: #A88FBA !important;
-  margin-top: 8em !important;
-  z-index: -1;
+  width:100%;
+  height: 15em;
 }
 
   /* dream address */
