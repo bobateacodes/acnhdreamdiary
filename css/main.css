@@ -117,6 +117,7 @@ header.mainheader .mainheader-content .mainheader-subheading {
 }
 
 #desc-info {
+  z-index: -1;
   position:relative;
   padding:2em;
   top:-1.2em;
@@ -124,6 +125,7 @@ header.mainheader .mainheader-content .mainheader-subheading {
   width:110%;
   height: 20em;
   background-color: #FFF;
+  opacity: .4;
   border-radius: 0px 0px 25px 25px;
 }
 
@@ -141,12 +143,12 @@ header.mainheader .mainheader-content .mainheader-subheading {
   text-align: center;
   line-height: 2em;
   border-radius: 25px;
-  background: rgba(169, 129, 201, 0.8);
+  background: rgba(169, 129, 201);
   color:#FFF;
 }
 
 #p-desc-b:hover {
-  background: rgba(169, 129, 201, 0.8);
+  background: rgba(169, 129, 201);
 }
 
 #p-desc-b:hover {
@@ -261,12 +263,12 @@ header.mainheader .mainheader-content .mainheader-subheading {
 
   .p-desc {
     font-size:12px;
-    width:115%
+    width:112%
   }
 
   #desc-info {
-    width:115%;
-    left:-1.3em;
+    width:112%;
+    left:-1.35em;
   }
 
   #towntags {
