@@ -4,7 +4,7 @@ function randomAddress() {
   var max = 9999
   var output = document.getElementById("da-value");
   var string = "DA-";
-  var address = Math.floor(Math.random() * (max-min+1)) + min;
+  var address = Math.floor(Math.random() * (max-min+1)) + min; //testing
   output.innerHTML = string + address + "-0000-0000"  //testing
   return output;
 }
@@ -27,4 +27,10 @@ function addInfo() {
   } else {
     x.style.display = "none";
   }
+}
+
+// smooth scroll to anchor
+function smooth() {
+  var anchor = document.getElementById("phone");
+  anchor.scrollIntoView({behavior: 'smooth', inline: 'center', block: 'start'});
 }

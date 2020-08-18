@@ -2,6 +2,7 @@ body {
   font-family: Yaldevi Colombo Medium;
   letter-spacing: 0.10em;
   background-color: #DFD7E9;
+  scroll-behavior: smooth;
 }
 
 h1,
