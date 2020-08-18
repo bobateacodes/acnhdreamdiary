@@ -96,7 +96,7 @@ header.mainheader .mainheader-content .mainheader-subheading {
   position: relative;
   top:-20vh;
   width:90%;
-  height: 65em;
+  height: 66em;
   margin:auto;
   padding:4em;
   background: rgba(252, 243, 225);
@@ -259,7 +259,7 @@ header.mainheader .mainheader-content .mainheader-subheading {
   }
 
   .p-screen {
-    height:53em
+    height:56em
   }
 
   .p-title {
