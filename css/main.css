@@ -23,10 +23,12 @@ h6 {
 
 /* Nook Phone */
 .p-screen {
+  position: relative;
+  top:-10em;
   width:90%;
   margin:auto;
   padding:4em;
-  background: rgba(252, 243, 225, 0.8);
+  background: rgba(252, 243, 225);
   border-radius: 8em;
 }
 .p-title {
@@ -85,7 +87,9 @@ h6 {
 }
 
 .mt-10 {
-  margin-top: 10em !important;
+  background-color: #A88FBA !important;
+  margin-top: 8em !important;
+  z-index: -1;
 }
 
   /* dream address */
@@ -186,12 +190,12 @@ header.bg {
   /*background-image: url("https://i.ibb.co/1JSGb4S/clouds2.png");*/
 }
 
-header.bg-graphic {
-  position: relative;
-  bottom:0;
-  width:100vw;
-  height:10em;
-  background-image: url('img/bg-graphic.svg');
+.bg-graphic {
+  z-index: -1;
+  position: absolute;
+  width:100%;
+  height:50em;
+  background-image: url('https://raw.githubusercontent.com/bobateacodes/acnhdreamdiary/master/img/bg-graphic.svg');
   background-repeat: no-repeat;
   background-size: contain;
 }
