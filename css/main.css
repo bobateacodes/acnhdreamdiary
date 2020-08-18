@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - One Page Wonder v5.0.8 (https://startbootstrap.com/template-overviews/one-page-wonder)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
- */
-
 body {
   font-family: Yaldevi Colombo Medium;
   letter-spacing: 0.10em;
@@ -19,6 +13,10 @@ h6 {
   font-family: Varela Round;
   font-weight: 500 !important;
   color:#603C7A;
+}
+
+h1 {
+  font-size: 3em;
 }
 
 /* Nook Phone */
@@ -48,6 +46,24 @@ h6 {
   border-radius: 25px;
   padding:2em;
   padding-bottom: 4em !important;
+}
+
+#desc-info {
+  display: none;
+  position:relative;
+  padding:2em;
+  top:-1.2em;
+  left:-1.8em;
+  width:110%;
+  height: 20em;
+  background-color: #FFF;
+  border-radius: 0px 0px 25px 25px;
+}
+
+#towntags {
+  position: absolute;
+  bottom:1em;
+  color:#603C7A;
 }
 
 #p-desc-b {
@@ -207,7 +223,7 @@ header.mainheader .mainheader-content {
 }
 
 header.mainheader .mainheader-content .mainheader-heading {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 header.mainheader .mainheader-content .mainheader-subheading {
@@ -216,6 +232,9 @@ header.mainheader .mainheader-content .mainheader-subheading {
 
 
 @media (min-width: 850px) {
+  h1 {
+    font-size: 4em;
+  }
   header.mainheader {
     padding-top: calc(10rem + 55px);
     padding-bottom: 10rem;

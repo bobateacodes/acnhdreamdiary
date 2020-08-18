@@ -22,6 +22,9 @@
   <!-- Custom styles for this template -->
   <link href="css/main.css" rel="stylesheet">
 
+  <!-- JavaScript -->
+  <script type="text/javascript" src="js/script.js"></script>
+
 </head>
 
 <body>
@@ -50,13 +53,13 @@
   <header class="mainheader text-center text-white">
     <div class="mainheader-content">
       <div class="container">
-        <h1 class="masthead-heading mb-0">Animal Crossing <br>Dream Diary</h1>
-        <h2 class="masthead-subheading mb-0" style="color:#FFF;">random dream address generator</h2>
+        <h1 class="masthead-heading">Animal Crossing <br>Dream Diary</h1>
+        <h2 class="masthead-subheading" style="color:#FFF;">random dream address generator</h2>
         <a href="#phone" class="btn btn-primary btn-xl rounded-pill mt-5">sleep</a>
       </div>
     </div>
   </header>
-  <div class="mt-10">  <a id="phone">.</a></div>
+  <div class="mt-10"><a id="phone">.</a></div>
   <div class="bg-graphic"></div>
 
 
@@ -76,7 +79,10 @@
               <div class="p-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae!
                 Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
-                <div id="p-desc-b">more info</div>
+                <div id="p-desc-b" onclick="addInfo()">more info</div>
+              </div>
+              <div id="desc-info">
+                <div id="towntags">tagged as:</div>
               </div>
 
               <!-- apps grid -->
@@ -92,6 +98,7 @@
                   <div class="col"><div id="p-app"></div>
                     <p>My Favs</p>
                   </div>
+
 
                   <div class="col"><div id="p-app"></div>
                     <p>FAQ</p>
