@@ -131,13 +131,13 @@ header.mainheader .mainheader-content .mainheader-subheading {
 }
 
 #desc-info {
+  height:20em;
   z-index: -1;
   position:relative;
   padding:2em;
   top:-1.2em;
   left:-1.8em;
   width:110%;
-  height: 20em;
   background-color: #FFF;
   opacity: .4;
   border-radius: 0px 0px 25px 25px;
@@ -157,21 +157,15 @@ header.mainheader .mainheader-content .mainheader-subheading {
   text-align: center;
   line-height: 2em;
   border-radius: 25px;
-  background: rgba(169, 129, 201);
+  background: #B698CE;
   color:#FFF;
-}
-
-#p-desc-b:hover {
-  background: rgba(169, 129, 201);
+  transition: .25s;
 }
 
 #p-desc-b:hover {
   background: #8360A2;
 }
 
-#p-desc-b:focus {
-  background: #8360A2;
-}
 
 #p-app {
   margin-top: 3em;

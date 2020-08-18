@@ -9,28 +9,18 @@ function randomAddress() {
   return output;
 }
 
-// more info, less info button
-function toggle() {
+// toggle more info, less info button
+function showInfo() {
   var button = document.getElementById("p-desc-b");
+  var x = document.getElementById("desc-info");
   if (button.innerHTML == "more info") {
     button.innerHTML = "less info";
+    button.style.background = "#8360A2";
+    x.style.display = "block";
   }
   else {
     button.innerHTML = "more info";
-  }
-}
-
-function addInfo() {
-  var x = document.getElementById("desc-info");
-  if (x.style.display == "none") {
-    x.style.display = "block";
-  } else {
+    button.style.background = "#B698CE";
     x.style.display = "none";
   }
-}
-
-// smooth scroll to anchor
-function smooth() {
-  var anchor = document.getElementById("phone");
-  anchor.scrollIntoView({behavior: 'smooth', inline: 'center', block: 'start'});
 }
