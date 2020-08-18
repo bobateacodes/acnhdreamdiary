@@ -5,6 +5,12 @@ body {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: Yaldevi Colombo Medium;
+  src: url('https://raw.githubusercontent.com/mooniak/yaldevi-fonts/blob/master/fonts/YaldeviColombo/ttf/YaldeviColombo-Medium.ttf');
+  font-style: normal;
+}
+
 p {
   font-family: Yaldevi Colombo Medium;
 }
