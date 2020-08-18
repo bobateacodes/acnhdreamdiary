@@ -42,7 +42,7 @@ h1 {
 
 header.mainheader {
   position: relative;
-  height:85vh;
+  height:75vh;
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
@@ -95,7 +95,7 @@ header.mainheader .mainheader-content .mainheader-subheading {
   margin:auto;
   padding:4em;
   background: rgba(252, 243, 225);
-  border-radius: 8em;
+  border-radius: 7.5em;
 }
 .p-title {
   margin-top:1.25em;
@@ -366,7 +366,7 @@ header.mainheader .mainheader-content .mainheader-subheading {
 }
 
 .scaled {
-  transform:scale(.85);
+  transform:scale(.90);
 }
 
 .btn-primary {
