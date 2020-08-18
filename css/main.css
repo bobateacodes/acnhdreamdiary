@@ -363,6 +363,10 @@ header.mainheader .mainheader-content .mainheader-subheading {
   user-select: none;
 }
 
+.scaled {
+  transform:scale(.85);
+}
+
 .btn-primary {
   background-color: #ee0979;
   border-color: #ee0979;
