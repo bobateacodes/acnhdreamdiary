@@ -1,0 +1,296 @@
+/*!
+ * Start Bootstrap - One Page Wonder v5.0.8 (https://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+
+body {
+  font-family: Yaldevi Colombo Medium;
+  letter-spacing: 0.10em;
+  background-color: #DFD7E9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Varela Round;
+  font-weight: 500 !important;
+  color:#603C7A;
+}
+
+/* Nook Phone */
+.p-screen {
+  width:90%;
+  margin:auto;
+  padding:4em;
+  background: rgba(252, 243, 225, 0.8);
+  border-radius: 8em;
+}
+.p-title {
+  margin-top:1.25em;
+  font-size: 1.8em;
+  text-align: center;
+  color: #532B0E;
+}
+
+.p-desc {
+  position:relative;
+  left:-1.8em;
+  margin-top:5em;
+  width: 110%;
+  height: auto;
+  background: #FFFAF4;
+  border-radius: 25px;
+  padding:2em;
+  padding-bottom: 4em !important;
+}
+
+#p-desc-b {
+  float:right;
+  width: 120px;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 25px;
+  background: rgba(169, 129, 201, 0.8);
+  color:#FFF;
+}
+
+#p-desc-b:hover {
+  background: rgba(169, 129, 201, 0.8);
+}
+
+#p-desc-b:hover {
+  background: #8360A2;
+}
+
+#p-desc-b:focus {
+  background: #8360A2;
+}
+
+#p-app {
+  margin-top: 5em;
+  margin-bottom: .5em;
+  width: 100px;
+  height: 100px;
+  background: #D3B9DF;
+  border-radius: 33px;
+}
+
+.app-margin {
+  margin-top: -4em;
+}
+
+.mt-10 {
+  margin-top: 10em !important;
+}
+
+  /* dream address */
+
+  #da-value {
+    position:relative;
+    top:1em;
+    width: 90%;
+    height: 2em;
+    margin:auto;
+    background: #FFFFFF;
+    border-radius: 1.3em;
+    font-family: Thasadith;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 2em;
+    text-align: center;
+    letter-spacing: 0.115em;
+  }
+
+  #da-button {
+    position:relative;
+    top:3em;
+    width: 10em;
+    height: 2.8em;
+    margin:auto;
+    background: #B698CE;
+    border-radius: 25px;
+    font-family: Thasadith;
+    font-weight: bold;
+    font-size: .9em;
+    line-height: 2.8em;
+    text-align: center;
+    letter-spacing: 0.115em;
+    color: #FFF;
+  }
+
+  #da-button:hover {
+    background: #8360A2;
+  }
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #82D7BE;
+  opacity: 0.95;
+}
+
+.navbar-custom .navbar-brand {
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+header.mainheader {
+  position: relative;
+  height:100vh;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: #A88FBA;
+}
+header.bg {
+  z-index: -1;
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:500px;
+  opacity: .4;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /*background-image: url("https://i.ibb.co/1JSGb4S/clouds2.png");*/
+}
+
+header.bg-graphic {
+  position: relative;
+  bottom:0;
+  width:100vw;
+  height:10em;
+  background-image: url('img/bg-graphic.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+header.mainheader .mainheader-content {
+  z-index: 1;
+  top:25%;
+  position: relative;
+}
+
+header.mainheader .mainheader-content .mainheader-heading {
+  font-size: 3rem;
+}
+
+header.mainheader .mainheader-content .mainheader-subheading {
+  font-size: 2rem;
+}
+
+
+@media (min-width: 850px) {
+  header.mainheader {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+  header.mainheader .mainheader-content .mainheader-heading {
+    font-size: 4rem;
+  }
+  header.mainheader .mainheader-content .mainheader-subheading {
+    font-size: 2rem;
+  }
+  .p-screen {
+    width: 50em;
+    border-radius: 150px;
+  }
+  .p-title {
+    font-size: 2.3em;
+  }
+  .p-desc {
+    margin-top:7.5em;
+    padding:2em;
+    left:0;
+    width:auto;
+    height: auto;
+  }
+  /* dream address */
+
+  #da-value {
+    top:2em;
+    width: 85%;
+    height: 3em;
+    font-size: 1.5em;
+    line-height: 3em;
+  }
+
+  #da-button {
+    top:3em;
+    width: 10em;
+    height: 2em;
+    font-size: 1.5em;
+    line-height: 2em;
+  }
+
+}
+
+.bg-primary {
+  background-color: #ee0979 !important;
+}
+
+.btn-primary {
+  background-color: #ee0979;
+  border-color: #ee0979;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #bd0760 !important;
+  border-color: #bd0760 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+}
+
+.btn-secondary {
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #cc5500 !important;
+  border-color: #cc5500 !important;
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+footer {
+  margin-top: 10em;
+  height: 5em;
+  line-height: 5em;
+  background-color: #603C7A;
+}
