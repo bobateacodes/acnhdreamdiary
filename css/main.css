@@ -155,6 +155,12 @@ header.mainheader .mainheader-content .mainheader-subheading {
   color:#603C7A;
 }
 
+#favicon {
+  position:absolute;
+  bottom:1em;
+  background-image: url();
+}
+
 #p-desc-b {
   cursor: pointer;
   float:right;
