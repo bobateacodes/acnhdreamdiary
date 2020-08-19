@@ -24,3 +24,16 @@ function showInfo() {
     x.style.display = "none";
   }
 }
+
+// add to my favs
+function addToFavs() {
+  var favtext = document.getElementById("addFavs");
+  var faved = '<object id="hearticon" type="image/svg+xml" data="img/heart-fav.svg"></object>';
+  var notfav = '<object id="hearticon" type="image/svg+xml" data="img/heart-unfav.svg"></object>';
+  if ((favtext.innerHTML == "add to my favs " + notfav) || (favtext.innerHTML == "removed " + notfav)) {
+    favtext.innerHTML = "added! " + faved;
+  }
+  else {
+    favtext.innerHTML = "removed " + notfav;
+  }
+}

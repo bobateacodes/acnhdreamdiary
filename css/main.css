@@ -145,7 +145,6 @@ header.mainheader .mainheader-content .mainheader-subheading {
   left:-1.8em;
   width:110%;
   background-color: #FFF;
-  opacity: .4;
   border-radius: 0px 0px 25px 25px;
 }
 
@@ -155,10 +154,19 @@ header.mainheader .mainheader-content .mainheader-subheading {
   color:#603C7A;
 }
 
-#favicon {
+#addFavs {
   position:absolute;
+  right:2.5em;
   bottom:1em;
-  background-image: url();
+  color:#603C7A;
+}
+
+#hearticon {
+  position:relative;
+  bottom:-.4em;
+  width:25px;
+  height:25px;
+  opacity:.85;
 }
 
 #p-desc-b {
@@ -293,6 +301,16 @@ header.mainheader .mainheader-content .mainheader-subheading {
 
   #towntags {
     font-size: 12px;
+  }
+
+  #addFavs {
+    font-size: 12px;
+    color:#603C7A;
+  }
+
+  #hearticon {
+    width:20px;
+    height:20px;
   }
 
   #p-app {
