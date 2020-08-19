@@ -364,12 +364,19 @@ header.mainheader .mainheader-content .mainheader-subheading {
     left:0;
   }
 
+  #towntags {
+    font-size: 18px;
+  }
+
+  #addFavs {
+    font-size: 18px;
+  }
+
   #p-app {
     width:160px;
     height:160px;
     border-radius:55px;
   }
-
 
   #p-app-title {
     font-size: 20px !important;

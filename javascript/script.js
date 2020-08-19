@@ -11,9 +11,12 @@ function randomAddress() {
 
 // toggle more info, less info button
 function showInfo() {
+  var desc = document.querySelector(".p-desc");
   var button = document.getElementById("p-desc-b");
   var x = document.getElementById("desc-info");
   if (button.innerHTML == "more info") {
+    desc.style.borderBottomLeftRadius = "0px";
+    desc.style.borderBottomRightRadius = "0px";
     button.innerHTML = "less info";
     button.style.background = "#8360A2";
     x.style.display = "block";
@@ -22,6 +25,8 @@ function showInfo() {
     button.innerHTML = "more info";
     button.style.background = "#B698CE";
     x.style.display = "none";
+    desc.style.borderBottomLeftRadius = "25px";
+    desc.style.borderBottomRightRadius = "25px";
   }
 }
 
