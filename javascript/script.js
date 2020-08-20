@@ -33,12 +33,13 @@ function showInfo() {
 // add to my favs
 function addToFavs() {
   var favtext = document.getElementById("addFavs");
-  var faved = '<object id="hearticon" type="image/svg+xml" data="img/heart-fav.svg"></object>';
-  var notfav = '<object id="hearticon" type="image/svg+xml" data="img/heart-unfav.svg"></object>';
-  if ((favtext.innerHTML == "add to my favs " + notfav) || (favtext.innerHTML == "removed " + notfav)) {
-    favtext.innerHTML = "added! " + faved;
+  var heart = document.getElementById("hearticon")
+  if ((favtext.innerHTML == "add to my favs") || (favtext.innerHTML == "removed")) {
+    favtext.innerHTML = "added!";
+    heart.style.backgroundImage = "url('https://raw.githubusercontent.com/bobateacodes/acnhdreamdiary/master/img/heart-fav.svg')";
   }
   else {
-    favtext.innerHTML = "removed " + notfav;
+    favtext.innerHTML = "removed";
+    heart.style.backgroundImage = "url('https://raw.githubusercontent.com/bobateacodes/acnhdreamdiary/master/img/heart-unfav.svg')";
   }
 }

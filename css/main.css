@@ -156,14 +156,18 @@ header.mainheader .mainheader-content .mainheader-subheading {
 
 #addFavs {
   position:absolute;
-  right:2.5em;
+  right:3.5em;
   bottom:1em;
   color:#603C7A;
 }
 
 #hearticon {
-  position:relative;
-  bottom:-.4em;
+  position:absolute;
+  bottom:1em;
+  right:1.5em;
+  background-image: url('https://raw.githubusercontent.com/bobateacodes/acnhdreamdiary/master/img/heart-unfav.svg');
+  background-repeat: no-repeat;
+  background-image: contain;
   width:25px;
   height:25px;
   opacity:.85;
@@ -309,6 +313,8 @@ header.mainheader .mainheader-content .mainheader-subheading {
   }
 
   #hearticon {
+    right:1em;
+    bottom:.75em;
     width:20px;
     height:20px;
   }
@@ -370,6 +376,13 @@ header.mainheader .mainheader-content .mainheader-subheading {
 
   #addFavs {
     font-size: 18px;
+  }
+
+  #hearticon {
+    width:30px;
+    height:30px;
+    bottom:1.2em;
+    right:1.5em;
   }
 
   #p-app {
