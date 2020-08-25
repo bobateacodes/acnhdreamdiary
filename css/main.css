@@ -124,7 +124,7 @@ header.mainheader .mainheader-content .mainheader-subheading {
   color: #532B0E;
 }
 
-.p-desc {
+#p-desc {
   position:relative;
   left:-1.8em;
   margin-top:5em;
@@ -293,7 +293,7 @@ header.mainheader .mainheader-content .mainheader-subheading {
     line-height: 2.8em;
   }
 
-  .p-desc {
+  #p-desc {
     font-size:12px;
     width:112%
   }
@@ -356,7 +356,7 @@ header.mainheader .mainheader-content .mainheader-subheading {
   .p-title {
     font-size: 2.3em;
   }
-  .p-desc {
+  #p-desc {
     font-size:20px;
     margin-top:7.5em;
     padding:2em;
