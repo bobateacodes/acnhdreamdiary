@@ -1,7 +1,7 @@
 // global variables
 let generator = {
   address: "Generate a Random Dream",
-  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.",
+  desc: "Welcome to the ACNH Dream Diary, a random dream address generator. To get started, press 'random dream' to get a random dream address from our database. For more options and theme filtering, check out the search app below!",
   images: [],
   tags: [],
   faved: false,
@@ -92,6 +92,11 @@ function updateValues() {
   var button = '<div id="p-desc-b" class="noselect" onclick="showInfo()">more info</div>';
   var tags;
   address.innerHTML = generator.getAddress();
-  desc.innerHTML = '<p>' + generator.getDesc() + '</p>' + button;
+  if (desc.innerHTML == "") {
+    desc.innerHTML = '<p>' + generator.getDesc() + '</p>';
+  }
+  else {
+    desc.innerHTML = '<p>' + generator.getDesc() + '</p>' + button;
+  }
   return;
 }

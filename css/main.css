@@ -330,6 +330,10 @@ header.mainheader .mainheader-content .mainheader-subheading {
     font-size: 14px !important;
   }
 
+  #p-desc-b {
+    width:90px;
+  }
+
 }
 
 /* Desktops */
@@ -393,6 +397,10 @@ header.mainheader .mainheader-content .mainheader-subheading {
 
   #p-app-title {
     font-size: 20px !important;
+  }
+
+  #p-desc-b {
+    width:150px;
   }
 
 
